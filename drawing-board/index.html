@@ -6,22 +6,24 @@
     <title>Drawing Board</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+  <div>
     <div class="container">
+      <div class="section">
+      <h1>Pixel Editor</h1>
       <canvas id="canvas" onclick="onCanvasClick(event)"></canvas>
-    </div>
-
+      </div>
     <div class="buttons">
-      <button onclick="setColor('red')">Red</button>
-      <button onclick="setColor('orange')">Orange</button>
-      <button onclick="setColor('yellow')">Yellow</button>
-      <button onclick="setColor('green')">Green</button>
-      <button onclick="setColor('blue')">Blue</button>
-      <button onclick="setColor('indigo')">Indigo</button>
-      <button onclick="setColor('violet')">Violet</button>
+      <button class="red" onclick="setColor('red')">Red</button>
+      <button class="orange" onclick="setColor('orange')">Orange</button>
+      <button class="yellow" onclick="setColor('gold')">Yellow</button>
+      <button class="green" onclick="setColor('green')">Green</button>
+      <button class="blue" onclick="setColor('blue')">Blue</button>
+      <button class="indigo" onclick="setColor('indigo')">Indigo</button>
+      <button class="violet" onclick="setColor('violet')">Violet</button>
       <button onclick="setColor('black')">Black</button>
+      <button id="reset" onclick="reset()">Reset</button>
     </div>
-
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
