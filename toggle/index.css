@@ -1,0 +1,33 @@
+/*dark mode button, body changes color */
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body.darktheme {
+  background-color: black;
+}
+
+button {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+body.darktheme button {
+  background-color: yellow;
+  color: black;
+  box-shadow: 0px 0px 12px 7px #d6ff0066;
+}
