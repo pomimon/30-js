@@ -8,7 +8,7 @@ togBtn.addEventListener("click", () => {
   document.body.classList.toggle("darktheme");
 
   if (document.body.classList.contains("darktheme")) {
-    togBtn.textContent = "let there be light";
+    togBtn.textContent = "LET THERE BE LIGHT";
   } else {
     togBtn.textContent = "only darkness for me";
   }
