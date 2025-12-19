@@ -5,8 +5,8 @@
 // submit button
 //
 const questionText = document.getElementById("question");
-let firstNum = Math.floor(Math.random() * 10);
-let secondNum = Math.floor(Math.random() * 10);
+let firstNum = Math.floor(Math.random() * 20);
+let secondNum = Math.floor(Math.random() * 20);
 let correctAnswer = firstNum * secondNum;
 questionText.textContent = `What is ${firstNum} x ${secondNum}?`;
 
