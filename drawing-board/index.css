@@ -34,7 +34,7 @@ body {
   gap: 8px;
   margin-top: 90px;
 
-  :hover {
+  button:hover {
     cursor: pointer;
     transform: scale(1.1);
   }
